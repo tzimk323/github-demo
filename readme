@@ -12,3 +12,9 @@ git clone https://github.com/tzimk323/github-demo.git
 
 Σε ποιο branch είμαι:
 git status
+
+
+git commit -m "DFFDFD"
+
+
+git add .
