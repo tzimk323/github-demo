@@ -98,3 +98,7 @@ EXAMPLE:
 
 
 
+δες όλα τα files π είναι staged
+	git ls-files
+
+
