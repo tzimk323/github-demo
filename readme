@@ -12,9 +12,60 @@ git clone https://github.com/tzimk323/github-demo.git
 
 Σε ποιο branch είμαι:
 git status
+εμφανίζει¨:
+On branch main
+
+No commits yet
 
 
-git commit -m "DFFDFD"
+Commit:
+    git commit -m "DFFDFD"
+
+πως να προσθέσεις νεα αρχεία στο staging:
+    git add .
 
 
-git add .
+ορίζω το default branch
+    git config --global init.defaultBranch main
+    git push origin main
+
+Cloning
+    git clone https://github.com/libgit2/libgit2
+
+πως να δείς τις ρυθμίσεις σου:
+    git config --global --list
+
+εμφανίζει
+    filter.lfs.clean=git-lfs clean -- %f
+    filter.lfs.smudge=git-lfs smudge -- %f
+    filter.lfs.process=git-lfs filter-process
+    filter.lfs.required=true
+    user.name=jim
+    user.email=tzim323@gmail.com
+
+
+
+create new repository
+    git init another-example
+δημιουργεί ένα φάκελο και μέσα τον φάκελο .git  (είναι κρυφός)
+
+ορίζω default editor
+    git config --global code.editor "notepad++.exe multiInst -nosession"
+
+
+
+αρα για project σε νέο:
+    1.φτιάχνω στο  remote ένα repo
+    2.κάνω git init another-example
+    3.σπρώχνω στο repo μου
+
+πως να δείς τα remote branches σου
+    git branch -r
+
+εμφανίζει:
+    origin/HEAD -> origin/main
+    origin/main
+
+
+git repo σε ηδη existing project (αν υπάρχει ηδη git file τοτε κανει reinitialize):
+    git init
