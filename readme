@@ -69,3 +69,7 @@ create new repository
 
 git repo σε ηδη existing project (αν υπάρχει ηδη git file τοτε κανει reinitialize):
     git init
+
+
+Fork
+    copy of a repository to our personal space (mporeis an thes na to ananewneis apo to arxiko)
