@@ -19,7 +19,7 @@ No commits yet
 
 
 Commit:
-    git commit -m "DFFDFD"
+    git commit -am "DFFDFD"
 
 πως να προσθέσεις νεα αρχεία στο staging:
     git add .
@@ -51,7 +51,7 @@ create new repository
 
 ορίζω default editor
     git config --global code.editor "notepad++.exe multiInst -nosession"
-
+vc
 
 
 αρα για project σε νέο:
@@ -67,9 +67,34 @@ create new repository
     origin/main
 
 
+
+πως να δείς τα local branches sou
+    git branch -l
+
+
+
 git repo σε ηδη existing project (αν υπάρχει ηδη git file τοτε κανει reinitialize):
     git init
 
 
 Fork
     copy of a repository to our personal space (mporeis an thes na to ananewneis apo to arxiko) fgf
+
+
+git config file:
+    C:\Users\tzim3\.gitconfig
+
+EXAMPLE:
+
+    [init]
+        defaultBranch = main
+    [difftool "sourcetree"]
+        cmd = "'' "
+    [mergetool "sourcetree"]
+        cmd = "'' "
+        trustExitCode = true
+    [code]
+        editor = C:\\Program Files (x86)\\Notepad++\\notepad++.exe
+
+
+
