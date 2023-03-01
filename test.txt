@@ -105,8 +105,7 @@ EXAMPLE:
 	git ls-files
 
 
-αν θελω να πάρω πίσω git add σε file
-	git reset HEAD test.txt
+αν θελω να πάρω πίσω αλλαγές σε file
+	gfhfghfgdjghghg
 
-αν θελω να πάρω πiσω αλλαγες σε file (p itan sto proigoumeno commit)
-	git checkout -- test.txt
+
