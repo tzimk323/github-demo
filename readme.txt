@@ -31,6 +31,8 @@ Commit:
 πως να προσθέσεις νεα αρχεία στο staging:
     git add fileName
 
+Για να ξε add το file:
+    git restore --staged <file>
 
 πως να προσθέσεις νεouς φακέλους στο staging (recoursively):
     git add .
@@ -215,3 +217,5 @@ git show 300ef18703f801da230b59ab9827fd3f6df55cc8
 -----GIT IGNORE----
 ftiakse file:
 .gitignore
+
+κάθε γραμμή και file
