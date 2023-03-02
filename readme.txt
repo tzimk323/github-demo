@@ -219,3 +219,8 @@ ftiakse file:
 .gitignore
 
 κάθε γραμμή και file
+μπορω και πολλά files
+    *.txt
+kαι φάκελο
+    folder/
+νομιζω οτι δν πρέπει να είναι add
