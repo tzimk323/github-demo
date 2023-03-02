@@ -1,3 +1,10 @@
+Είχα προτζεκτ
+git init
+ftiaxnw sto remote
+git commit
+git pull https://github.com/tzimk323/lastmlyTest main --allow-unrelated-histories
+git push https://github.com/tzimk323/lastmlyTest main
+
 
 git version
     git version 2.33.0.windows.2
@@ -110,3 +117,101 @@ EXAMPLE:
 
 αν θελω να πάρω πiσω αλλαγες σε file (p itan sto proigoumeno commit)
 	git checkout -- test.txt
+
+αν θελω να μετονομάσω αρχείο (σε os level, και κανει stage oti einai renamed) , σε περιπτώση π το κάνω διαφορετικά το git to βλέπει
+σαν δυο πράξεις: 1. οτι το αρχειο εγινε delete, 2. oti dimiourgithike ena allo arxeio
+    git mv fdfdgf.txt gfgfgf.txt
+
+
+    ???????????? kati oti katalavainei oti exei ginei renamed en teli
+    git add filename
+    git add -u
+
+
+git add A???????
+
+
+remove file
+    git rm newfile.txt
+
+    an thelw na anairesw to delete
+git reset Head filename
+
+What is git rebase? Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+ Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+
+
+
+---------------------------history functions
+    git log
+
+εμφανίζει:
+commit 578fb021849dba42120e47655a49c60b572bc9ef
+Author: jim <98760445+dmKonstant@users.noreply.github.com>
+
+commit f293da9db7de86c66e7f3476346e7bb62af55722
+Author: jim <tzim323@gmail.com>
+Date:   Wed Feb 15 21:46:46 2023 +0200
+
+
+ενώ το git log --abbrev-commit
+
+    εμφανίζει με μικρότερο hash
+
+PS C:\Users\tzim3\Desktop\Projects\gitrepo\github-demo> git log --abbrev-commit
+commit f9776f3 (HEAD -> main)
+Author: jim <98760445+dmKonstant@users.noreply.github.com>
+Date:   Thu Mar 2 21:02:47 2023 +0200
+
+    windows
+
+commit ed2ff76 (origin/main, origin/HEAD)
+Author: jim <98760445+dmKonstant@users.noreply.github.com>
+Date:   Wed Mar 1 22:20:07 2023 +0200
+
+
+
+
+git log --oneline --graph --decorate
+
+       εμφανίζει (PROSEKSE LEEI K POTE STO REMOTE)
+    * f9776f3 (HEAD -> main) windows
+    * ed2ff76 (origin/main, origin/HEAD) DF
+    * 300ef18 hgh
+    * 3a615ac hgh
+    * cf0adb2 Ffd
+    * 578fb02 df
+    * 3bf7626 FD
+    * 7cfb16e asds
+    * f293da9 DFFDFD
+    * f3c7f30 Initial commit
+
+
+git log --since="3 days ago"
+
+MONO GIA AUTO TO FILE COMMITS
+git log readme.txt
+
+
+Δείχνει τι έχει αλλάξει σε ένα commit
+
+git show 300ef18703f801da230b59ab9827fd3f6df55cc8
+
+
+
+----git alias---
+πρόσεξε οτι βγάζεις το git απο το string
+    git config --global alias.hist "log --oneline --graph --decorate"
+
+και μετά πατάω απλα git hist
+ή απλα το βάζω στο config file
+
+[alias]
+	hist = log --oneline --graph --decorate
+
+
+
+
+-----GIT IGNORE----
+ftiakse file:
+.gitignore
