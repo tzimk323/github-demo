@@ -327,3 +327,9 @@ go to another branch
 
 create a branch and checkout to it
     git checkout -b title-change
+
+
+Merge to branches (LEGETAI FAST FORWARD MERGES)
+fast forward merge= otan exw ftiaxnw ena branch kanw allages kai meta thelw auto to branch na to mergarw me to arxiko mou, p dn exei kamia allagi)
+    git merge title-change
+
