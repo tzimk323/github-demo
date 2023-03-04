@@ -337,3 +337,6 @@ fast forward merge= otan exw ftiaxnw ena branch kanw allages kai meta thelw auto
 =======
 ADD COPYRIGHT
 >>>>>>> copyright
+
+
+new word v 2
