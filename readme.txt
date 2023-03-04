@@ -324,3 +324,6 @@ delete branch:
 
 go to another branch
      git checkout main
+
+create a branch and checkout to it
+    git checkout -b title-change
