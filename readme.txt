@@ -327,3 +327,5 @@ go to another branch
 
 create a branch and checkout to it
     git checkout -b title-change
+
+ADD COPYRIGHT
