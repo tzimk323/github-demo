@@ -224,3 +224,55 @@ ftiakse file:
 kαι φάκελο
     folder/
 νομιζω οτι δν πρέπει να είναι add
+
+
+
+Rename branch
+    git branch -m main
+
+Delete branch (nomizw kai apo remote kai apo local)
+    git branch -D main
+
+ADD ALL FILES
+    git add -A
+
+Checkout to a brunch
+    git checkout --orphan latest_branch
+
+delete all commit history and go to main
+
+Deleting the .git folder may cause problems in your git repository. If you want to delete all your commit history but keep the code in its current state, it is very safe to do it as in the following:
+Checkout
+        git checkout --orphan latest_branch
+Add all the files
+        git add -A
+Commit the changes
+        git commit -am "commit message"
+
+Delete the branch
+
+        git branch -D main
+
+Rename the current branch to main
+
+        git branch -m main
+
+Finally, force update your repository
+
+        git push -f origin main
+
+PS: this will not keep your old commit history around
+
+
+OTAN ERROR :
+Username for 'https://github.com': dmKonstant
+Password for 'https://dmKonstant@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+
+TOTE APLA VALE ANTI GIA KODIKO TO PERSONAL ACCESS TOKEN
+
+MULTI PULL ALIAS
+alias multipull='find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} pull \;'
+mporw na valw epilogi autostash
+mporw na valw ektos apo ekei p eimai?
+mporw otan exei merge ekei p eimai na me petaei?
