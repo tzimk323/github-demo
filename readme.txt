@@ -74,6 +74,9 @@ vc
 πως να δείς τα remote branches σου
     git branch -r
 
+πως να δείς τα remote branches σου kai ta local mazi
+ git branch -a
+
 εμφανίζει:
     origin/HEAD -> origin/main
     origin/main
@@ -276,3 +279,48 @@ alias multipull='find . -mindepth 1 -maxdepth 1 -type d -print -exec git -C {} p
 mporw na valw epilogi autostash
 mporw na valw ektos apo ekei p eimai?
 mporw otan exei merge ekei p eimai na me petaei?
+
+
+
+REMOVE UNTRACKED FILES
+    git clean -fd
+To recap, git clean is a convenience method for deleting untracked files in a repo's working directory.
+
+
+-----------DES DIAFORES----------------------
+    git diff --staged HEAD   (STAGED AREA TO HEAD dld last commit)
+
+git diff
+
+MONO GIA ENA FILE
+    git diff file
+
+
+Diff se commits
+
+to head me head -1 commit
+    git diff HEAD HEAD^
+
+Diafores se duo commits
+git diff b321654 ed2ff76
+
+
+Diafores se duo local branch and remote
+    git diff master origin/master
+
+
+
+-------------------GIT BRANCHES AND MERGING------------------
+
+
+create a branch
+    git branch mynewbranch
+
+rename branch:
+ git branch -m mynewbranch newbranch
+
+delete branch:
+ git branch -d newbranch
+
+go to another branch
+     git checkout main
