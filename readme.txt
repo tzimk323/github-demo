@@ -365,6 +365,9 @@ git stash
 Untracked files:
 git clean -fd
 
+git commit -am "FD"
+
+
 
 
 
