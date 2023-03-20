@@ -356,6 +356,17 @@ git merge new -m "mege commit"
  to deutero to other branch
 
 
-
+-----------POLU XRISTIMA------
 
 git reset --hard HEAD^
+
+git stash
+
+Untracked files:
+git clean -fd
+
+
+
+
+-----------REBASE--------
+
