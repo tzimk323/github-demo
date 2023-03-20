@@ -355,3 +355,7 @@ git merge new -m "mege commit"
  to prwto einai tou head
  to deutero to other branch
 
+
+
+
+git reset --hard HEAD^
