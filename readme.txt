@@ -402,6 +402,8 @@ git commit -am "FD"
     git stash apply
     git stash pop
     git stash drop
+    git stash list
+
 
 
 reflog
