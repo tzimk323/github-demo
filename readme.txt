@@ -357,14 +357,15 @@ git merge new -m "mege commit"
 
 
 -----------POLU XRISTIMA------
-
+git merge branchName
 git reset --hard HEAD^
 
 git stash
-
+git branch -d branchname : DELETE BRANCH
+ git checkout -b title-change  : Create branch and chekout
 Untracked files:
 git clean -fd
-
+  git config --global alias.hist "log --oneline --graph --decorate"
 git commit -am "FD"
 
 
@@ -372,5 +373,40 @@ git commit -am "FD"
 
 
 -----------REBASE--------
+    git rebase branchName
+    git rebase --abort
+    (αφου λυσω conflict)
+    git rebase --continue
+    και αργότερα  git merge
+    git pull --rebase origin master
 
+Γιατι αντι για merge:
+    1.katharoteri history
+    2. it eliminates the unnecessary merge commits required by git merge
+
+Γενικά: flatten history:
+εχω ενα branch ena, φτιάχνω απο αυτο ένα αλλο το duo
+κάνω αλλαγες στο duo
+κάνω αλλαγες στο ena
+πάω στο δυο και κάνω rebase sto ena
+ κάνει rewind τις αλλαγές απο το αλλο branch πάνω στο δικό σου
+
+
+ ουσιαστικά κρατάει τις αλλαγες στο ena και απο πάνω του βάζει τις αλλαγές του duo
 αλλαγή στο branch main
+
+
+
+-----------STASH--------
+    git stash
+    git stash apply
+    git stash pop
+    git stash drop
+
+
+reflog
+cherry pick
+simantika
+conflicts
+gitkraken
+
